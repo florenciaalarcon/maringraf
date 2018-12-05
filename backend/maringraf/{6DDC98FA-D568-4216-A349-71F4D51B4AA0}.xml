@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<configuration date="2017/03/14" author="e.World Technology Ltd.">
+<project id="{6DDC98FA-D568-4216-A349-71F4D51B4AA0}" file="D:\php\maringraf\maringraf.pmp" name="maringraf" product="PHPMaker" version="10.0" datetime="2017/03/14 16:12:21" languagefolder="phplang" userlevel="">
+<table id="categorias" name="categorias" caption="Categorías" userlevel="" priv="1"/>
+<table id="noticias" name="noticias" caption="Noticias" userlevel="" priv="1"/>
+<table id="productos" name="productos" caption="Productos" userlevel="" priv="1"/>
+<table id="servicios" name="servicios" caption="Servicios" userlevel="" priv="1"/>
+</project></configuration>

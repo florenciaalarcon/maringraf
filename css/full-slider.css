@@ -1,0 +1,156 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+ body{
+	font-family: 'Work Sans', sans-serif; 	
+ }
+
+ section{
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+ }
+
+ .cl-blanco{
+ 	color:white;
+ }
+
+ .cl-naranja{
+ 	color:#f18d21;
+ }
+
+ .bold{
+ 	font-weight: bold;
+ }
+
+ .bg-naranja{
+ 	background-color: #f6af1b;
+ }
+
+ .bg-gris{
+ 	background-color: #2f2b36; 	
+ }
+
+ .btn-naranja{
+ 	background-color: #f6af1b;
+ 	color:white;
+ 	border-radius: 10px;
+ 	text-transform: uppercase;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ }
+
+ .btn-naranja:hover{
+ 	opacity: 0.8;
+ 	color:#2f2b36;
+ }
+
+ .btn-naranja:focus{
+		box-shadow: 0 0 0 0.2rem rgba(47,43,54,.25);
+ }
+
+.sombra{
+	text-shadow: #333 2px 2px 2px; 		
+}
+
+a.cl-naranja:hover{
+	color:#f6af1b;
+}
+
+.redondeado{
+	border-radius: 10px;
+}
+
+/* NAVBAR */
+
+ .navbar{
+ 	background-color: #2f2b36;
+ }
+
+ /* SLIDER */
+
+ .carousel-caption h3, .carousel-caption p{
+	text-shadow: #333 2px 2px 2px; 	
+ }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* CUADRICULA */
+
+.cuadricula {
+  padding: 10px;
+}
+
+.inner-cuadricula {
+	position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+
+}
+
+.inner-cuadricula:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 
+}
+
+.contenido-cuadricula{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #f18d21;
+	opacity: 0;
+	transition:0.5s;
+	padding: 5%;
+}
+
+.contenido-cuadricula:hover{
+	opacity: 1;
+}
+
+/* LLAMADO */
+
+.llamado{
+	background-color: #2f2b36;
+}
+
+/* FOOTER */
+
+footer{
+	color:white;
+}
+
+footer a{
+	color:white;
+}
+
+/* NOTICIAS */
+
+.breadcrumb{
+	background-color: transparent!important;
+}
+
+.page-link{
+	border:none!important;
+}
+
+.page-item:first-child .page-link:hover, .page-item:last-child .page-link:hover{
+	background: transparent;
+}

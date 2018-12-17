@@ -139,24 +139,24 @@ if ($resultado) {
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('img/slide_1.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-2 bold">First Slide</h3>
-              <p class="lead">This is a description for the first slide.</p>
+              <h3 class="display-2 bold">Sala Gamer</h3>
+              <p class="lead">Diseño de gráfica, armado de simuladores y montado de todos los elementos en la sala gamer.</p>
             </div>
           </div>
 
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/slide_2.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-2 bold">Second Slide</h3>
-              <p class="lead">This is a description for the second slide.</p>
+              <h3 class="display-2 bold">Gráfica y Diseño</h3>
+              <p class="lead">Creación de diseños exclusivos.</p>
             </div>
           </div>
 
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/slide_3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-2 bold">Third Slide</h3>
-              <p class="lead">This is a description for the third slide.</p>
+              <h3 class="display-2 bold">Armado de Stands</h3>
+              <p class="lead">Contamos con personal altamente capacitado.</p>
             </div>
           </div>
           
@@ -184,7 +184,7 @@ if ($resultado) {
         <div class="row">
           <div class="col-md-8">
             <h2 class="cl-blanco display-3 bold">Quienes Somos</h2>
-            <p class="cl-blanco mt-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius modi quasi deserunt sint provident, voluptates accusamus. Delectus neque incidunt doloremque deserunt, ratione magni facilis sapiente quo corporis iste assumenda.</p>
+            <p class="cl-blanco mt-5 lead">Somos una empresa familiar con una trayectoria de 20 años en el mercado. Siempre a la vanguardia de las necesidades de nuestros clientes, incorporando maquinarias de última generación, distintos tipos de materiales y la creación de diseños exclusivos, con personal  altamente capacitado.</p>
           </div>
           <div class="col-md-4">
             <img width="100%" src="img/logo_cuadrado_500.png" alt="logo cuadrado">
@@ -200,7 +200,7 @@ if ($resultado) {
     <section id="servicios">
       <div class="container">
         <h2 class="display-4 text-center bold">Servicios</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, veniam quia sit asperiores error! Maiores facilis odit iusto dolores, debitis provident enim minima ab libero nobis in quidem. Culpa, sapiente.</p>
+        <p class="lead text-center">Estos son los servicios con los que contamos.</p>
         <div class="row">
 
           <?php 
@@ -211,7 +211,7 @@ if ($resultado) {
                   <div class="inner-cuadricula" style="background-image:url('backend/upload/<?php echo $value["imagen"] ?>')">
                     <div class="contenido-cuadricula text-center">
                       <h3 class="cl-blanco text-center display-5"><?php echo $value["titulo"] ?></h3>
-                      <p class="cl-blanco text-center"><?php echo $value["texto"] ?></p>
+                      <p class="cl-blanco text-center"><?php echo substr($value["texto"], 0,50)."..." ?></p>
                       <a class="btn btn-naranja" href="" data-titulo="<?php echo $value["titulo"] ?>" data-texto="<?php echo $value["texto"] ?>">Más Info</a>
                     </div>
                   </div>
@@ -232,8 +232,8 @@ if ($resultado) {
 
     <section class="llamado">
       <div class="container">
-        <h3 class="display-3 cl-blanco text-center sombra bold ">Titulo</h3>
-        <h5 class="display-4 cl-blanco text-center sombra">Subtitulo</h5>
+        <h3 class="display-4 cl-blanco text-center sombra bold ">Descubrí un Nuevo Concepto Gráfico</h3>
+        <h5 class="display-5 cl-blanco text-center sombra">¿Por qué un Nuevo Concepto Gráfico? Es simple, por la gran variedad de trabajos que realizamos: Papelería, folletería, bolsas, gigantografías, cartelería, letras corpóreas, exhibidores, estructuras metálicas, portones con diseño, carteles con luminaria, armados completos de stand y mucho más!</h5>
       </div>
     </section>
 
@@ -244,7 +244,7 @@ if ($resultado) {
     <section id="productos" class="bg-naranja">
       <div class="container">
         <h2 class="display-4 text-center bold cl-blanco">Productos</h2>
-        <p class="lead cl-blanco">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, veniam quia sit asperiores error! Maiores facilis odit iusto dolores, debitis provident enim minima ab libero nobis in quidem. Culpa, sapiente.</p>
+        <p class="lead text-center cl-blanco">Estos son algunos de los productos que realizamos.</p>
         <div class="row">
 
           <?php 
@@ -255,7 +255,7 @@ if ($resultado) {
                   <div class="inner-cuadricula" style="background-image:url('backend/upload/<?php echo $value["imagen"] ?>')">
                     <div class="contenido-cuadricula text-center">
                       <h3 class="cl-blanco text-center display-5"><?php echo $value["titulo"] ?></h3>
-                      <p class="cl-blanco text-center"><?php echo $value["detalle"] ?></p>
+                      <p class="cl-blanco text-center"><?php echo substr($value["detalle"], 0,50)."..." ?></p>
                       <h3 class="cl-blanco text-center display-5"><?php echo $value["precio"] ?>.-</h3>                
                       <a class="btn btn-naranja" data-titulo="<?php echo $value["titulo"] ?>" data-texto="<?php echo $value["detalle"] ?>" data-precio="<?php echo $value["precio"] ?>" href="">Más Info</a>
                     </div>
@@ -276,8 +276,8 @@ if ($resultado) {
 
     <section class="llamado">
       <div class="container">
-        <h3 class="display-3 cl-blanco text-center sombra bold ">Titulo</h3>
-        <h5 class="display-4 cl-blanco text-center sombra">Subtitulo</h5>
+        <h3 class="display-4 cl-blanco text-center sombra bold ">Todo lo hacemos posible</h3>
+        <h5 class="display-5 cl-blanco text-center sombra">Porque si lo puedes soñar lo podemos crear</h5>
       </div>
     </section>
 

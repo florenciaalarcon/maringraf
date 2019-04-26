@@ -81,7 +81,20 @@ if ($resultado) {
   <body>
 
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top d-block">
+      
+      <div class="container">
+        <div class="row w-100">
+          <div class="p-0 col-12 text-right text-white">
+            <ul class="fa-ul m-0">
+              <li><span class=""><i class="fas fa-phone-square fa-flip-horizontal"></i></span>
+                <a class="text-white" href="callto:011 4203 7770">011 4203 7770</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
 
         <a class="navbar-brand" href="#">
@@ -137,18 +150,18 @@ if ($resultado) {
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('img/slide_1.jpg')">
+          <div class="carousel-item active" style="background-image: url('img/slide_2.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-2 bold">Sala Gamer</h3>
-              <p class="lead">Diseño de gráfica, armado de simuladores y montado de todos los elementos en la sala gamer.</p>
+              <h3 class="display-2 bold">Gráfica y Diseño</h3>
+              <p class="lead">Creación de diseños exclusivos.</p>
             </div>
           </div>
 
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/slide_2.png')">
+          <div class="carousel-item" style="background-image: url('img/slide_1.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-2 bold">Gráfica y Diseño</h3>
-              <p class="lead">Creación de diseños exclusivos.</p>
+              <h3 class="display-2 bold">Gigantografia y Carteleria</h3>
+              <p class="lead">Diseño de gráfica, armado de simuladores y montado de todos los elementos en la sala gamer.</p>
             </div>
           </div>
 
@@ -215,12 +228,12 @@ if ($resultado) {
                       <a class="btn btn-naranja" href="" data-titulo="<?php echo $value["titulo"] ?>" data-texto="<?php echo $value["texto"] ?>">Más Info</a>
                     </div>
                   </div>
+                  <h3 class="titulo-noticia bold"><?php echo $value["titulo"] ?></h3>                  
                 </div>             
               <?php
             }
 
           ?>
-
                                         
         </div>
       </div>
@@ -260,6 +273,7 @@ if ($resultado) {
                       <a class="btn btn-naranja" data-titulo="<?php echo $value["titulo"] ?>" data-texto="<?php echo $value["detalle"] ?>" data-precio="<?php echo $value["precio"] ?>" href="">Más Info</a>
                     </div>
                   </div>
+                  <h3 class="titulo-noticia text-white bold"><?php echo $value["titulo"] ?></h3>                                    
                 </div>                                            
               <?php
             }
@@ -401,7 +415,7 @@ if ($resultado) {
                 <span class="fa-li" ><i class="fas fa-map-marker-alt"></i></span>Cte. Craig 70, Sarandí
               </li>
               <li><span class="fa-li" ><i class="fas fa-envelope"></i></span>
-                <a href="mailto:info@maringraf.com.ar">info@maringraf.com.ar</a> 
+                <a href="mailto:maringraf@maringraf.com.ar">maringraf@maringraf.com.ar</a> 
               </li>
             </ul>
           </div>
@@ -416,7 +430,7 @@ if ($resultado) {
           <div class="col-lg-3">
             <ul class="fa-ul">
               <li><span class="fa-li" ><i class="fas fa-phone-square fa-flip-horizontal"></i></span>
-                <a href="callto:011 4203 7779">011 4203 7779</a>
+                <a href="callto:011 4203 7770">011 4203 7770</a>
               </li>
             </ul>          
           </div>
